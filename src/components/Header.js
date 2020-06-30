@@ -22,7 +22,7 @@ class Header extends Component {
                             </li>
                             <li>
                             <div className="DropdownAdvice">
-                                <a href="#">Advice</a>
+                                <a href="#"><b>Advice</b></a>
                                 <div className="AdviceContent">
                                         <p>
                                         Holder

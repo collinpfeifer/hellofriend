@@ -12,7 +12,7 @@ class TopContent extends Component{
                     </video>
                     </div>
                 <div className="Main">
-                    <img src={HelloFriend} alt="hello friend"/>
+                    <img className="MainPic" src={HelloFriend} alt="hello friend"/>
                     <h2>I'm glad you're here</h2>
              </div>
             </div>

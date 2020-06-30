@@ -4,9 +4,64 @@
   height:auto;
   overflow:hidden;
   zoom:111%;
+  z-index:-500;
 
   
 }
+.TopContent{
+  height:100%;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+.Boxwrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:10%;
+  
+}
+.Box{
+  color:#0e2f56;
+  padding:30px;
+  margin:2%;
+  background:white;
+  width:30%;
+  border:1px solid #d6d6d6;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  transition:.2s all; 
+}
+.Boxwrap:hover .Box{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.Boxwrap:hover .Box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.InformationalContent{
+  text-align:center;
+  z-index:5;
+  position: relative;
+  width:100%;
+  color:#0e2f56;
+  
+
+}
+.InformationalText p{
+  font-size: 20px;
+  padding-right:20%;
+  padding-left:20%;
+  line-height:220%;
+}
+
 
 
 body {
@@ -48,24 +103,30 @@ body {
 }
 
 
-
+.TopContent{
+  position:relative;
+}
 
 
 
 
 
 .Main {
-
   color:#0e2f56;
   font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  position: relative;
   z-index:2;
   padding: 20px;
   text-align: center;
+  
+  padding-bottom: 15.9%;
+}
+.MainPic{
+  padding-top: 15%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
 }
 
 
