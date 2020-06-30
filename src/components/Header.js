@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import HelloFriend from "../images/happy-face.png"
 class Header extends Component {
     render() {

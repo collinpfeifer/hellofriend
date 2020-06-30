@@ -1,13 +1,13 @@
 import React, {Component} from "react"
-import Header from "../components/Header.js"
-import MainContent from "./TopContent.js"
+import Header from "./Header.js"
+import TopContent from "./TopContent.js"
 
 class HomePage extends Component {
     render(){
         return(
             <div className="HomePage">
                 <Header />
-                <MainContent />
+                <TopContent />
             </div>
         )
     }
