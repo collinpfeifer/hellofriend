@@ -13,7 +13,7 @@ class TopContent extends Component{
                     </div>
                 <div className="Main">
                     <img className="MainPic" src={HelloFriend} alt="hello friend"/>
-                    <h2>I'm glad you're here</h2>
+                    <h2>you're worth it and i'm glad you're here</h2>
              </div>
             </div>
         )

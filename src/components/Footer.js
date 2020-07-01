@@ -5,7 +5,11 @@ class Footer extends Component{
         return(
            <div className="Footer">
                <footer>
-                   
+                   <div className="FooterContent">
+                    </div>
+                    <div className="FooterBottom">
+                        &copy; hellofriend.com | designed by collin pfeifer
+                    </div>
                </footer>
            </div> 
         )
@@ -17,3 +21,4 @@ class Footer extends Component{
 
 
 }
+export default Footer;
