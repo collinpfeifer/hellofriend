@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import "../index.css"
 import HomePage from "./HomePage.js"
 
 class App extends Component {
