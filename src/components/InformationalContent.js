@@ -9,7 +9,7 @@ class InformationalContent extends Component {
         return(
             <div className="InformationalContent">
                 <div className="InformationalText">
-                    <h1 style={{fontSize:"70px"}}>Hi!</h1>
+                    <h1 style={{fontSize:"70px"}}>hi!</h1>
                     <h2 style={{color:"#c22c22"}}>and welcome to hello friend!</h2>
                     <p>your new best friend and a completely (yes, completely) anonymous notebook based therapy app.
                     this is a new notebook where everything you write will never be seen again.

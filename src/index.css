@@ -8,6 +8,9 @@
 
   
 }
+
+
+
 .TopContent{
   height:100%;
   margin:0;
@@ -54,6 +57,99 @@
   position: relative;
   width:100%;
   color:#0e2f56;
+  
+
+}
+
+.ContactContent{
+  height:100%;
+  margin:0;
+  padding:0;
+  position: relative;
+  text-align: center;
+  padding-top:7%;
+  align-items: center;
+  width:100%;
+  color:#cc0000;
+  font-size:26px;
+  padding-bottom:9%;
+}
+
+.ContactContent p{
+  font-size: 18px;
+  color:#0e2f56;
+}
+
+.SupportContent{
+  height:100%;
+  margin:0;
+  padding:0;
+  position: relative;
+  text-align: center;
+  padding-top:7%;
+  align-items: center;
+  width:100%;
+  color:#cc0000;
+  font-size:26px;
+  padding-bottom:27%;
+}
+.SupportContent p{
+  font-size: 18px;
+  color:#0e2f56;
+}
+
+.ReleaseContent{
+  height:100%;
+  margin:0;
+  padding:0;
+  position: relative;
+  text-align: center;
+  padding-top:7%;
+  align-items: center;
+  width:100%;
+  color:#cc0000;
+  font-size:26px;
+  padding-bottom:9%;
+  
+}
+
+.ReleaseContent p{
+  color:#0e2f56;
+  font-size: 20px;
+}
+
+.ReleaseContent button{
+  background-color: #0e2f56;
+  color:white;
+}
+
+.ReleaseContent textarea{
+  font-size:25px;
+  border: 0px;
+  height:auto;
+  height:100%;
+  width:100%;
+  color:#0e2f56;
+
+}
+
+
+
+.ReleaseInput{
+  margin-right: auto;
+  margin-left: auto;
+  width: 45%;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15),
+  /* The second layer */
+  0 10px 0 -5px #eee,
+  /* The second layer shadow */
+  0 10px 1px -4px rgba(0,0,0,0.15),
+   /* The third layer */
+  0 20px 0 -10px #eee,
+  /* The third layer shadow */
+  0 20px 1px -9px rgba(0,0,0,0.15);
+  padding:30px;
   
 
 }
