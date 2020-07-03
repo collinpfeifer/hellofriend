@@ -11,7 +11,7 @@ class ContactPage extends Component{
                         <br />
                         <br />
                         if you would personally like to view the repository, do so at my <a href="https://github.com/collinpfeifer/hellofriend">github</a>, where this website is open source
-                        </p>
+                    </p>
                 </div>
             </div>
         )

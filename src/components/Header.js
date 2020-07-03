@@ -7,13 +7,12 @@ class Header extends Component {
             <div className="Header">
                 <nav>
                     <img style={{float: "left", paddingTop:"12px"}} src={HelloFriend} alt="hello friend" width="100px"/>
-                <ul>
+                    <ul>
                         <li><Link to="/" className="a">Home</Link></li>
                         <li><Link to="/release" className="a">Release</Link></li>
                         <li><Link to="/support" className="a">Support</Link></li>
                         <li><Link to="/contact" className="a">Contact</Link></li>
-  
-                </ul>
+                    </ul>
                 </nav>
             </div>
         )

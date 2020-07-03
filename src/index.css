@@ -22,7 +22,7 @@
   z-index:2;
   padding: 20px;
   text-align: center;
-  padding-bottom: 17%;
+  padding-bottom: 31%;
 }
 .MainPic{
   padding-top: 15%;
@@ -80,6 +80,7 @@
   position: absolute;
   left:50%;
   transform:translate(-50%,-50%);
+  padding-bottom: 10%;
 }
 
 .InformationalText p{

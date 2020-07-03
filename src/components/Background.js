@@ -5,10 +5,10 @@ class Background extends Component {
     render(){
         return (
             <div className="Background">
-                    <video autoPlay loop muted>
-                        <source src={Clouds} type="video/mp4"/>
-                    </video>
-                    </div>
+                <video autoPlay loop muted>
+                    <source src={Clouds} type="video/mp4"/>
+                </video>
+            </div>
         )
     }
 }

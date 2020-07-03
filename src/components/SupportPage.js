@@ -20,7 +20,6 @@ class SupportPage extends Component{
                         <br/>
                         you are loved, cared about, and everything in between, please seek help
                     </p>
-
                 </div>
             </div>
         )

@@ -4,8 +4,6 @@ import LipsFace from "../images/lipssealedface.png"
 import AngryFace from "../images/angryface.png"
 import HelloFriend from "../images/happy-face.png"
 
-
-
 class HomePage extends Component {
     render(){
         return(
@@ -16,7 +14,6 @@ class HomePage extends Component {
                     <h2>you're worth it and i'm glad you're here</h2>
              </div>
             </div>
-
             <div className="InformationalContent" >
                 <div className="InformationalText">
                     <h1 style={{fontSize:"70px"}}>hi!</h1>
@@ -27,7 +24,6 @@ class HomePage extends Component {
                     daily schedule, which not only helps fight depression and anxiety, but also mental diseases seen later in 
                     life, such as alzheimer's and dementia. happy journaling :)</p>
                 </div>
-                
                 <div className="Boxwrap">
                         <div className="Box">
                             <img style={{width:"75px"}} src={SadFace} alt="sad face"/>
