@@ -1,3 +1,4 @@
+/* Background */
 .Background{
   position: fixed;
   width:300%;
@@ -5,17 +6,30 @@
   overflow:hidden;
   zoom:111%;
   z-index:-500;
-
-  
 }
-
-
-
+/* Home Page */
 .TopContent{
   height:100%;
   margin:0;
   padding:0;
   position: relative;
+}
+
+.Main {
+  color:#0e2f56;
+  font-weight: bold;
+  position: relative;
+  z-index:2;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 17%;
+}
+.MainPic{
+  padding-top: 15%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
 }
 
 .Boxwrap{
@@ -61,6 +75,21 @@
 
 }
 
+.InformationalText{
+  width: 60%;
+  position: absolute;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.InformationalText p{
+  
+  font-size: 20px;
+  padding-right:20%;
+  padding-left:20%;
+  line-height:220%;
+}
+/* Contact Page*/
 .ContactContent{
   height:100%;
   margin:0;
@@ -72,14 +101,14 @@
   width:100%;
   color:#cc0000;
   font-size:26px;
-  padding-bottom:9%;
-}
+  padding-bottom:32.8%;
 
+}
 .ContactContent p{
   font-size: 18px;
   color:#0e2f56;
 }
-
+/* Support Page */
 .SupportContent{
   height:100%;
   margin:0;
@@ -91,13 +120,14 @@
   width:100%;
   color:#cc0000;
   font-size:26px;
-  padding-bottom:27%;
+  padding-bottom:26.8%;
 }
 .SupportContent p{
   font-size: 18px;
   color:#0e2f56;
 }
 
+/* Release Page */
 .ReleaseContent{
   height:100%;
   margin:0;
@@ -133,8 +163,6 @@
 
 }
 
-
-
 .ReleaseInput{
   margin-right: auto;
   margin-left: auto;
@@ -150,65 +178,31 @@
   /* The third layer shadow */
   0 20px 1px -9px rgba(0,0,0,0.15);
   padding:30px;
-  
 
 }
 
 
-.InformationalText{
-  
-  width: 60%;
-  position: absolute;
-  
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-.InformationalText p{
-  
-  font-size: 20px;
-  padding-right:20%;
-  padding-left:20%;
-  line-height:220%;
-  
-  
-}
 
-
-
+/* Body*/
 body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
+  animation:fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-
-
-.TopContent{
-  position:relative;
+@keyframes fadeInAnimation{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
 }
 
-
-
-
-
-.Main {
-  color:#0e2f56;
-  font-weight: bold;
-  position: relative;
-  z-index:2;
-  padding: 20px;
-  text-align: center;
-  
-  padding-bottom: 20.6%;
-}
-.MainPic{
-  padding-top: 15%;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width:20%;
-}
-
+/* Footer */
 footer{
 text-align: center;
 color:white;

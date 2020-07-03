@@ -10,7 +10,7 @@ class ContactPage extends Component{
                         fixes you would reccomend, please email me at collinpfeifer@gmail.com
                         <br />
                         <br />
-                        if you would personally like to view the repository, do so at my <a href="#">github</a>, where this website is open source
+                        if you would personally like to view the repository, do so at my <a href="https://github.com/collinpfeifer/hellofriend">github</a>, where this website is open source
                         </p>
                 </div>
             </div>

@@ -2,10 +2,8 @@ import React from "react"
 import {Route, Switch} from "react-router-dom"
 import HomePage from "./HomePage.js"
 import ReleasePage from "./ReleasePage.js"
-
 import SupportPage from "./SupportPage.js"
 import ContactPage from "./ContactPage.js"
-
 import Header from "./Header.js"
 import Footer from "./Footer.js"
 import Background from "./Background.js"
